@@ -1,0 +1,57 @@
+body {
+    width: 100%;
+    height: 100%;
+    padding: 0 auto ;
+
+}
+
+.container {
+    width: 70vw;
+    height: calc(70vw * auto);
+    max-width: 100%;
+    max-height: 100%;
+    background-color: rgb(243, 112, 5);
+    margin: 10px auto;
+    padding-top: 5px;
+}
+
+#heading {
+    text-align: center;
+    font-size: 2rem;
+    font-family: "Abril Fatface", serif;
+    font-style: italic;
+}
+
+.logo {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    margin-left: 10px;
+    transform: translate(0, -120px);
+    margin-top: 10px; 
+    
+}
+
+#heading2 {
+    margin-left: 10px;
+    text-decoration: underline;
+}
+
+table {
+    width: 100%;
+    border: 2px solid black;
+    margin-top: 20px;
+    font-family: sriracha, serif;
+    font-size: 15px;
+    height: auto;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+thead {
+    background-color: rgb(238, 45, 31);
+}
+
