@@ -99,7 +99,7 @@ thead {
         height: 40px;
     }
     .container {
-        width: 100vw;
-        margin: 0;
+        width: 95vw;
+        margin: 0, auto;
     }
 }
