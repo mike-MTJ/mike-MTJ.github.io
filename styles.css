@@ -55,3 +55,39 @@ thead {
     background-color: rgb(238, 45, 31);
 }
 
+/* Media queries for responsive table */
+@media (max-width: 1200px) {
+    table {
+        font-size: 14px;
+    }
+    th, td {
+        padding: 8px;
+    }
+}
+
+@media (max-width: 992px) {
+    table {
+        font-size: 13px;
+    }
+    th, td {
+        padding: 6px;
+    }
+}
+
+@media (max-width: 768px) {
+    table {
+        font-size: 12px;
+    }
+    th, td {
+        padding: 4px;
+    }
+}
+
+@media (max-width: 576px) {
+    table {
+        font-size: 11px;
+    }
+    th, td {
+        padding: 2px;
+    }
+}
