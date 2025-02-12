@@ -1,9 +1,104 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mike's CheatSheet</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+</head>
 <body>
-  <h1>King Mike The Jubilant</h1>
-  <p>Welcome to my website!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
-</body>
+<main class="container">
+    <h1 id="heading"><span id="mike">Mike's</span> <br><span style="color: aliceblue;">CheatSheet</span></br></h1>
+    <img src="Resources/cheatsheet.png" alt="HTML5 Logo" class="logo">
+    <h2 id="heading2">Topic: Semantic Html</h2>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Tag</th>
+                <th scope="col">Name</th>
+                <th scope="col">Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>&lt;header&gt;</td>
+                <td>Header</td>
+                <td class="description">Defines a header for an html page/document.</td>
+            </tr>
 
+            <tr>
+                <td>&lt;nav&gt;</td>
+                <td>Navigation</td>
+                <td class="description">Defines a container for navigation links.</td>
+            </tr>
+
+            <tr>
+                <td>&lt;main&gt;</td>
+                <td>Main</td>
+                <td class="description">Defines the main content of an html document.</td>
+            </tr>
+
+            <tr>
+                <td>&lt;Section&gt;</td>
+                <td>Section</td>
+                <td class="description">Defines a section in an html document.</td>
+            </tr>
+
+            <tr>
+                <td>&lt;figure&gt;</td>
+                <td>Figure</td>
+                <td class="description">Defines a container for a figure and its caption.</td>
+            </tr>
+
+            <tr>
+                <td>&lt;figcaption&gt;</td>
+                <td>Figcaption</td>
+                <td class="description">Defines a caption for a figure.</td>
+            </tr>
+
+            <tr>
+                <td>&lt;article&gt;</td>
+                <td>Article</td>
+                <td class="description">Defines an article in an html document.</td>
+            </tr>
+
+            <tr>
+                <td>&lt;Video&gt;</td>
+                <td>Video</td>
+                <td class="description">Defines a container for a video in an html document.</td>
+            </tr>
+        </tbody>
+    </table>
+    <h2 id="heading2">Attributes</h2>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Attribute</th>
+                <th scope="col">Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>src</td>
+                <td class="description">Specifies the URL of the video/audio source.</td>
+            </tr>
+            <tr>
+                <td>controls</td>
+                <td class="description">Define the controls for the video/audio.</td>
+            </tr>
+            <tr>
+                <td>autoplay</td>
+                <td class="description">Specifies that the video/audio will start playing as soon as it is ready.</td>
+            </tr>
+            <tr>
+                <td>type</td>
+                <td class="description">Specifies the format of the video being displayed.</td>
+            </tr>
+        </tbody>
+    </table>
+</main>
+</body>
 </html>
